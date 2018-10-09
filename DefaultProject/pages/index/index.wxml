@@ -15,3 +15,12 @@
       <view  class="menu-desc" >{{menu.descs[index]}}</view>
  </view>
 </view>
+<view class="item-list">
+   <view class="section__title">京东拼团</view>
+   <scroll-view class="scroll-view" scroll-x="true" >
+    <view class="scroll-view-item_H" wx:for="{{menu.imgUrls}}">
+      <image class="menu-img" src="{{item}}"/>
+      <view  class="menu-desc" >{{menu.descs[index]}}</view>
+    </view>
+   </scroll-view>
+ </view>
