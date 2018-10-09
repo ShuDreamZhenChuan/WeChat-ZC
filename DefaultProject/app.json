@@ -1,0 +1,47 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/variety/index",
+    "pages/cart/index",
+    "pages/mypage/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "强东商城",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#cacaca",
+    "selectedColor": "black",
+    "borderStyle": "black",
+    "backgroundColor": "red",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/img_home.png",
+        "selectedIconPath": "image/img_home.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/variety/index",
+        "iconPath": "image/img_designer.png",
+        "selectedIconPath": "image/img_designer.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/cart/index",
+        "iconPath": "image/img_video.png",
+        "selectedIconPath": "image/img_video.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/mypage/index",
+        "iconPath": "image/img_mypage.png",
+        "selectedIconPath": "image/img_mypage.png",
+        "text": "我的淘宝"
+      }  
+    ]
+  }
+}

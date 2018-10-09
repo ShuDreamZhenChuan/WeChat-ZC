@@ -1,0 +1,4 @@
+<!--pages/index/index.wxml-->
+<view class="header">
+  <text>分类页面</text>
+</view>

@@ -1,0 +1,4 @@
+<!--pages/index/index.wxml-->
+<view class="header">
+  <text>购物车页面</text>
+</view>

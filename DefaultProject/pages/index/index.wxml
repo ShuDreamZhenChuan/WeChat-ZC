@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="header_view">
+  <swiper indicator-dots='true' indicator-color='red'
+   autoplay='true' duration='500' interval='5000' >
+     <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image class="slider-image" src="{{item}}"/>
+        </swiper-item>
+      </block>
+  </swiper>
+</view>
+<view class="item-menu">
+ <view class="menu-list" wx:for="{{menu.imgUrls}}">
+      <image class="menu-img" src="{{item}}"/>
+      <view  class="menu-desc" >{{menu.descs[index]}}</view>
+ </view>
+</view>
