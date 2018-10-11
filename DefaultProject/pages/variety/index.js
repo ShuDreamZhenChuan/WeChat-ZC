@@ -7,10 +7,10 @@ Page({
    */
   data: {
     navLeftItems:[
-      { id: 0, desc: '男装'},
-      { id: 1, desc: '女装'},
-      { id: 2, desc: '童装'},
-      { id: 3, desc: '男鞋'},
+      { id: 1, desc: '男装'},
+      { id: 2, desc: '女装'},
+      { id: 3, desc: '童装'},
+      { id: 4, desc: '男鞋'},
     ],
     navRightItems:[
       { nodes: [{ logo:'http://gw.alicdn.com/tps/i2/TB19BluIVXXXXX6XpXXN4ls0XXX-183-129.png?imgtag=avatar', desc: '天猫' }, {logo: 'http://gw.alicdn.com/tps/TB1FDOHLVXXXXcZXFXXXXXXXXXX-183-129.png?imgtag=avatar', desc: '聚划算' }]},

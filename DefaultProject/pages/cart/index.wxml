@@ -1,4 +1,19 @@
 <!--index.wxml-->
+<view class="page">
 <view class="container">
- <text>购物车页面</text>
+ <view class="card-title" >
+  <text>已购买商品</text>
+ </view>
+ <view class="main_view">
+  <scroll-view scroll-y="true" style="height:100%;">
+   <block wx:for="{{boughtGoods}}">
+     <view class="cart_list">
+      <image class="cart_img" src="{{item.logo}}"></image>    
+      <text class="cart_desc" >{{item.desc}} </text>     
+      <text class="cart_text" >{{item.price}}</text>   
+     </view>
+    </block>
+  </scroll-view>
+ </view>
+</view>
 </view>
