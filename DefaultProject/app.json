@@ -4,7 +4,8 @@
     "pages/logs/logs",
     "pages/variety/index",
     "pages/cart/index",
-    "pages/mypage/index"
+    "pages/mypage/index",
+    "pages/mypage/login"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -37,7 +38,7 @@
         "text": "购物车"
       },
       {
-        "pagePath": "pages/mypage/index",
+        "pagePath": "pages/mypage/login",
         "iconPath": "image/img_mypage.png",
         "selectedIconPath": "image/img_mypage.png",
         "text": "我的淘宝"
