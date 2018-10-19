@@ -1,16 +1,16 @@
 <view class="page">
  <view class="header_view" >
-  <view class="title_view" >
+  <view wx:if="{{isLogin === false}}" class="title_view" >
     <text class="text_title" >用户登录</text>
-   </view>
   </view>
+  <view wx:if="{{isLogin === true}}"  class="title_view" >
+    <text class="text_title" >{{userName}}</text>
+  </view>
+ </view>
  <view class="main_view">
-  <view class="btn-area" style="flex-direction:row;" >
-      <button type="primary"  size="default" plain="false">微信登录
-      </button>
-      <button type="primary"  size="default" plain="false">QQ登录
-      </button>
-    
+  <view wx:if="{{isLogin === false}}" class="btn-area" style="flex-direction:row;" >
+      <button wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录           </button>
+      <button type="primary"  size="default" >QQ登录</button>
   </view>
  </view>
 </view>

@@ -10,7 +10,7 @@
 .text_title
 {
   padding: 20rpx 40rpx;
-  font-size: 48rpx;
+  font-size: 48 rpx;
 }
 .main_view
 {
@@ -34,7 +34,7 @@
 
 }
 .btn-area button{
-    font-size: 24 rpx;
+    
     margin-top: 20rpx;
     margin-bottom: 20rpx;
 }
